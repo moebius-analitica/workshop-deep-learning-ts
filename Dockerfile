@@ -20,7 +20,7 @@ RUN pip install pyramid-arima
 
 WORKDIR /home
 
-RUN git clone https://jprojas34@bitbucket.org/moebius-analitica/workshop.git
+RUN git clone https://github.com/moebius-analitica/workshop-deep-learning-ts.git
 
 RUN wget https://archive.ics.uci.edu/ml/machine-learning-databases/00235/household_power_consumption.zip && \
 unzip -x household_power_consumption.zip -d workshop && \
